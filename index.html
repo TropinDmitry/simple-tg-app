@@ -38,7 +38,7 @@
         openBtn.addEventListener("click", () => {
             document.querySelector('.wrapper').classList.add('hide');
             document.getElementById('main_form').classList.remove('hide');
-            document.getElementById('user_name').value = tg.initDataUnsafe.first_name + ' ' + tg.initDataUnsafe.last_name;
+            document.getElementById('user_name').value = tg.initDataUnsafe.user.first_name + ' ' + tg.initDataUnsafe.user.last_name;
         });
 
         applyBtn.addEventListener("click", () => {
