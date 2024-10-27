@@ -64,9 +64,9 @@
                 errorElem.innerHTML = '';
                 
                 let data = {
-                    name: name,
-                    email: email,
-                    phone: phone
+                    name: name.value,
+                    email: email.value,
+                    phone: phone.value
                 }
                 tg.sendData(JSON.stringify(data));
 
